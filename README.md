@@ -1,0 +1,1 @@
+110 Esercizi di Python ripresi dal libro "Python in pratica" di Leonardo Venturi
