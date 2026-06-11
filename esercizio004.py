@@ -7,5 +7,6 @@ print("Inserisci il tuo nome e il tuo cognome.")
 nome = input("Nome: ")
 cognome = input("Cognome: ")
 nome_completo = nome + " " + cognome
+print(f"Il tuo nome completo è: {nome_completo}")
 print(f"Il tuo nome completo è: {nome_completo.upper()}")
 print(f"Il tuo nome completo è: {nome_completo.lower()}")
