@@ -18,9 +18,9 @@ while True:
     tentativo = int(input("Indovina il numero magico (tra 1 e 100): "))
     tentativi += 1
     if tentativo < numero_magico:
-        print("Troppo basso! Riprova.")
+        print("E' troppo basso! Riprova.")
     elif tentativo > numero_magico:
-        print("Troppo alto! Riprova.")
+        print("E'troppo alto! Riprova.")
     else:
         print(f"Bene! Hai indovinato. Il numero magico era proprio {numero_magico}!! E ce l'hai fatta in {tentativi} tentativi.")
         break
