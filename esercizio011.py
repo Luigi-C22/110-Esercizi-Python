@@ -11,7 +11,8 @@
 # Stampa il numero di tentativi.
 
 import random
-numero_magico = random.randint(1, 100)
+numero_magico = random.randint(0, 100)
+
 tentativi = 0
 while True:
     tentativo = int(input("Indovina il numero magico (tra 1 e 100): "))
