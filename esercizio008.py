@@ -17,3 +17,5 @@ while tentativi < 10:
         print("Troppo basso! Riprova.")
     else:
         print("Troppo alto! Riprova.")
+
+print(tentativi)
