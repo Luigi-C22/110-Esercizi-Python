@@ -43,3 +43,5 @@ def calcolatrice():
         print(f"Risultato: {risultato}")
     else:
         print("Scelta non valida.")
+
+calcolatrice()
