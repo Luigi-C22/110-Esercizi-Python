@@ -4,7 +4,7 @@
 # Rimuovi il primo animale dalla lista.
 # Stampa la lista aggiornata.
 
-animali = ["cane", "gatto", "pesce", "rana", "uccello"]
+animali = ["cane", "pollo"]
 print("Lista animali iniziale:", animali)
 pet = input("Inserisci un animaletto:")
 animali.append(pet)
@@ -12,5 +12,9 @@ print("Lista animali con append:", animali)
 
 pet_remove = input("immetti l'animale da rimuovere:")
 
-animali.remove(pet_remove)
-print("Lista animali col primo rimosso:", animali)
+
+if pet_remove not in animali:
+        print("questo animale non è in lista!")
+else:
+        animali.remove(pet_remove)
+        print("Lista animali col primo rimosso:", animali)
