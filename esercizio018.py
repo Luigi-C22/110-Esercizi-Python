@@ -6,8 +6,11 @@
 
 animali = ["cane", "gatto", "pesce", "rana", "uccello"]
 print("Lista animali iniziale:", animali)
-animali.append("Rinoceronte")
+pet = input("Inserisci un animaletto:")
+animali.append(pet)
 print("Lista animali con append:", animali)
 
-animali.pop(0)
+pet_remove = input("immetti l'animale da rimuovere:")
+
+animali.remove(pet_remove)
 print("Lista animali col primo rimosso:", animali)
