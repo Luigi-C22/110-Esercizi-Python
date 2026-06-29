@@ -4,8 +4,8 @@
 # Aggiorna l'anno di pubblicazione.
 # Stampa il dizionario aggiornato
 
-titolo = input("inserisci titolo: ")
-autore = input("inserisci autore: ")
+titolo = str(input("inserisci titolo: "))
+autore = str(input("inserisci autore: "))
 anno = int(input("Inserisci l'anno: "))
 
 
