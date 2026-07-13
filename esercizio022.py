@@ -25,7 +25,7 @@ prodotti = {
 prezzo_totale = sum(prodotti.values())
 print("Il prezzo totale dei prodotti è:", prezzo_totale)
 
-set1 = {1, 2, 3, 4, 5}
+set1 = {1, 2, 3, 4, 5,5}
 set2 = {4, 5, 6, 7, 8}
 intersezione = set1 & set2
 print("L'intersezione dei due set è:", intersezione)    
