@@ -14,7 +14,7 @@ inventario = {
 }
 
 # Usa una lista per registrare le vendite di vari prodotti.
-vendite = ["mela", "banana", "arancia","mango", "mango", "mela", "kiwi", "pera", "banana", "mela"]
+vendite = ["mela", "kiwi", "banana", "arancia","mango", "mango", "mela", "kiwi", "pera", "banana", "mela"]
 
 # Aggiorna l'inventario sottraendo gli articoli venduti.
 totale_vendite = 0
