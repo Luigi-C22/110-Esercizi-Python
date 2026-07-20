@@ -6,11 +6,12 @@
 def input_numero():
     try:
         numero = float(input("Inserisci un numero: "))
-        if numero == 0:
-            print("Errore: Non puoi inserire zero, la divisione per zero non è consentita.")
-            return None
-        return numero
+        risultato = 10 / numero
+        print(f"Il risultato della divisione è: {risultato}")
     except ValueError:
             print("Errore: Devi inserire un valore numerico.")
     except ZeroDivisionError:
             print("Errore: Non puoi inserire zero, la divisione per zero non è consentita.")
+
+input_numero()
+            
