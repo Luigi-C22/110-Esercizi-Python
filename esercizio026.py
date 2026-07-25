@@ -8,11 +8,13 @@ def calcola_rapporto(num1, num2):
     try:
         num1 = float(input("Inserisci il primo numero: "))
         num2 = float(input("Inserisci il secondo numero: "))
-        rapporto = num1 / num2
+    except ValueError:
+        print("Errore: Inserisci un numero valido.")    
     except ZeroDivisionError:
         print("Errore: Divisione per zero.")
         
     else:
+        rapporto = num1 / num2
         print(f"Il rapporto tra {num1} e {num2} è {rapporto}.")
         break
     finally:
