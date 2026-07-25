@@ -4,13 +4,19 @@
 # # il finally deve stampare "Chiusura programma" indipendentemente dall'esito della divisione.
 
 def calcola_rapporto(num1, num2):
+ while True:   
     try:
+        num1 = float(input("Inserisci il primo numero: "))
+        num2 = float(input("Inserisci il secondo numero: "))
         rapporto = num1 / num2
     except ZeroDivisionError:
         print("Errore: Divisione per zero.")
-        return None
+        
     else:
         print(f"Il rapporto tra {num1} e {num2} è {rapporto}.")
-        return rapporto
+        break
     finally:
         print("Chiusura programma.") 
+
+(calcola_rapporto(0, 0))  # Esempio di chiamata alla funzione
+      
