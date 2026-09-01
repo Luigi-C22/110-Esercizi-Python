@@ -26,7 +26,7 @@ class Biblioteca:
     def presta_libro(self, libro):
         if libro.disponibile:
             libro.disponibile = False
-            print(f"Hai prestito il libro: {libro}")
+            print(f"Hai prestato il libro: {libro}")
         else:
             print("Il libro non è disponibile.")
 
@@ -38,4 +38,18 @@ class Biblioteca:
             print("Il libro era già disponibile.")
 
 # Crea una istanza della biblioteca e aggiungi alcuni libri.
+biblioteca = Biblioteca()
+libro1 = Libro("Il Signore degli Anelli", "J.R.R. Tolkien")
+libro2 = Libro("1984", "George Orwell")
+libro3 = Libro("Il Piccolo Principe", "Antoine de Saint-Exupéry")
+biblioteca.aggiungi_libro(libro1)
+biblioteca.aggiungi_libro(libro2)
+
+
 # Presta e restituisci un libro, aggiornando la disponibilità.
+biblioteca.presta_libro(libro1)
+biblioteca.restituisci_libro(libro1)
+biblioteca.aggiungi_libro(libro3)
+
+
+
