@@ -8,6 +8,6 @@
 # Scrivi un programma che legge il contenuto del file e lo stampa a schermo.
 
 with open("saluti.txt", "r") as file:
-    contenuto_del_file = file.read()
+    contenuto_del_file = file.readlin()
     print(contenuto_del_file)
     
