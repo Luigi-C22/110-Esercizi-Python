@@ -1,0 +1,3 @@
+Ciao mondo!
+Questo é un file di testo.
+Saluti a tutti!
