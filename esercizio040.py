@@ -1,4 +1,5 @@
 #Esempio di lettura di file CSV
+
 import csv
 
 """ with open("dati.csv", "r") as file:
@@ -14,7 +15,9 @@ import csv
 with open("studenti.csv", "r") as file:
     lettore_csv = csv.reader(file)
     for riga in lettore_csv:
-        for i in range(0, len(riga), 2):
+        for i in range(0, len(riga), 3):
             nome = riga[i].strip()
             eta = riga[i + 1].strip()
-            print(f"Nome studente: {nome}, Età: {eta}")
+            sesso = riga[i + 2].strip()
+            print(f"Nome studente: {nome}, Età: {eta}, Sesso: {sesso}")
+            
