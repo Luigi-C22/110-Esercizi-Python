@@ -19,8 +19,10 @@ with open("output.csv", "r") as file:
 #            dove ogni riga rappresenta uno studente.
 
 import csv
-studenti = [{"Nome": "Alice", "Età": 22}, {"Nome": "Bob", "Età": 25},
-             {"Nome": "Charlie", "Età": 20}, {"Nome": "David", "Età": 23}]
+studenti = [ {"Nome": "Alice", "Età": 22},
+             {"Nome": "Bob", "Età": 25},
+             {"Nome": "Charlie", "Età": 20},
+             {"Nome": "David", "Età": 23}]
 
 with open("studenti.csv", "w", newline="") as file:
     campi = ["Nome", "Età"]
