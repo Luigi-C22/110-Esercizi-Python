@@ -34,7 +34,7 @@ with open('vendite.csv', mode='r') as file:
     
     print("Vendite registrate:")
     for row in reader:
-      totale_incasso = sum(float(row[2]) """ for row in reader """) 
+      totale_incasso = sum(float(row[2])  for row in reader) 
       print(f"Prodotto: {row[0]}, Quantità: {row[1]}, Prezzo: {row[2]}, euro")
     
     print(f"\nTotale incasso: {totale_incasso} euro")
